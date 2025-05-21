@@ -1,0 +1,18 @@
+{
+    "users": [
+      {
+        "username": "abc2025@abc2025.com",
+        "password": "RR8hfAmwPfX3.gP"
+      },
+      {
+        "username": "testuser@example.com",
+        "password": "TestPassword123"
+      }
+    ],
+    "newAccount": {
+      "firstName": "Test",
+      "lastName": "User",
+      "emailPrefix": "test.user",
+      "password": "ValidPass123!"
+    }
+  }
