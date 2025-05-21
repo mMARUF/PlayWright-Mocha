@@ -27,7 +27,7 @@ cd Playwright-Mocha-TypeScript
 ```
 
 2. **Install Dependencies**:
-Run the following command to install all required dependencies:
+   Run the following command to install all required dependencies:
 
 ```bash
 npm install 
@@ -35,28 +35,28 @@ npm playwright install
 ```
 
 3. **Run The Tests**:
-Execute the following command to run all tests:
+   Execute the following command to run all tests:
 
 ```bash
 npx playwright test 
 ```
 
 4. **Run Specific Test Spec File:**:
-To run a specific test spec file, use:
+   To run a specific test spec file, use:
 
 ```bash
 npx playwright test <test-file-path> --project=chromium
 ```
 
 5. **Run Specific Test Block:**:
-To run a specific test block inside a spec file, use:
+   To run a specific test block inside a spec file, use:
 
 ```bash
 npx playwright test <test-file-path> --project=chromium -g "<Test Block Name in the Spec File>"
 ```
 
 6. **Generate and View Reports:**:
-After running the tests, generate and view the HTML report:
+   After running the tests, generate and view the HTML report:
 
 ```bash
 npx playwright show-report
@@ -96,22 +96,24 @@ Playwright-Mocha-TypeScript/
    This project implements the Page Object Model (POM) design pattern to enhance code reusability and maintainability. Each page of the application is represented as a class, encapsulating its locators and actions. For example:
 10. `SignInPage` handles login-related actions.
 11. `UserJourney` handles user-specific workflows like adding products to the cart, wishlist, or comparison list.
-12. **Test Cases Executed:**:
+
+12. **Test Cases Executed:**
    The following test cases have been automated and executed through this project:
-13. Login of User
-14. Registration of User
-15. Logout of User
-16. Searching Product by Logged-in User
-17. Visiting Desired Product Page
-18. Adding Product to the Cart
-19. Removing All Products from the Cart
-20. Adding Product to the Wish List
-21. Removing Product from the Wish List
-22. Adding Product to the Compare List
-23. Removing Product from the Compare List
-24. Adding Review to a Product
-25. Pagination Testing of the Website
-26. **Environment Management:**:
+      - Login of User
+      - Registration of User
+      - Logout of User
+      - Searching Product by Logged-in User
+      - Visiting Desired Product Page
+      - Adding Product to the Cart
+      - Removing All Products from the Cart
+      - Adding Product to the Wish List
+      - Removing Product from the Wish List
+      - Adding Product to the Compare List
+      - Removing Product from the Compare List
+      - Adding Review to a Product
+      - Pagination Testing of the Website
+
+13. **Environment Management:**:
    This project uses the dotenv package to manage multiple environments. The `urls.env` file is used to store environment-specific variables such as the base URL and login credentials.
 
 Installation: `npm install dotenv`
